@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+ <title>Document</title>
+</head>
+<body>
+{{!-- Our navbar starts --}}
+{{>navbar}}
+{{!-- our navbar ends --}}
+
+ {{!-- <h1>We are in our index page</h1> --}} 
+  <div class="container-fluid mt-5">
+ <div class="row">
+  <div class="col-md-10 col-12 mx-auto">
+   <div class="row">
+    <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+      <h1>WE WILL HELP YOU TO </h1>
+      <h1>GROW YOUR BUSINESS</h1>
+      <p>We are a team of <span class="bold-style">professional developers</span></p>
+      <button class="btn-style btn-primary">Read more</button>
+      </div>
+      
+{{!-- Right side --}}
+      <div class="col-md-6 col-12 hero-text order-md-1 order-0 d-flex justify-content-centre align-items-start flex-column">
+<figure>
+    <img src="image/download.jpg" alt="herosection_image">
+  </figure>
+      </div>
+{{!-- <h1 style=" white-space: nowrap;">WE WILL HELP YOU TO </h1>
+<h1 style=" white-space: nowrap;">GROW YOUR BUSINESS</h1> --}}
+{{!-- <p style=" white-space: nowrap;">We are a team of <span class="bold-style">professional developers</span></p> --}}
+{{!-- <button class="btn-style btn primary">Read more</button> --}}
+  </div>
+ </div>
+</div>
+{{!-- {{! About section starts}} 
+<div style="">
+<div class="container-fluid mt-5 about style" id="aboutid">
+ <div class="row">
+  <div class="col-mid-10 col-12 mx-auto">
+    <h1 class="text-center main-heading">About us</h1>
+    <p class="text-center sub-heading">Grow your business with us</p>
+    <div class="row">
+    <div class="col-md-6 col-12 hero-text">
+  <figure>
+    <img src="image/download.jpg" alt="herosection_image">
+  </figure>
+</div>
+    <div class="col-md-6 col-12 hero-text d-flex justify-content-centre align-items-start flex-column">
+<h1>WE WILL HELP YOU TO </h1>
+<h1>GROW YOUR BUSINESS</h1>
+<p>We are a team of <span class="bold-style">professional developers</span></p>
+<button class="btn-style btn primary">Read more</button>
+</div>
+    </div>
+   </div>
+  </div>
+  </div>
+  </div>
+About section start --}}
+{{>about}}
+{{!-- About section ends --}}
+
+{{!-- Service section starts--}}
+{{>service}}
+{{!-- Service section ends --}}
+
+{{!-- map section starts--}}
+{{>map}}
+{{!--map section ends --}}
+
+{{!-- contact page starts --}}
+{{>contact}}
+{{!-- contact page ends --}}
+</body>
+</html>
+
+<script src="../jq/jquery.js" type="text/javascript"></script>
+ <script src="../js/bootstrap.js" type="text/javascript"></script>
